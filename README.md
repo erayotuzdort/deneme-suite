@@ -79,7 +79,6 @@ da çalışabilir. Ayrıntılar: [`server-app/README.md`](server-app/README.md).
 ```bash
 cd server-app
 npm install
-npm test          # 134 test
 npm run build
 ```
 

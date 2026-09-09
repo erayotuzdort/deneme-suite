@@ -68,7 +68,6 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 | `npm run dev` | `tsx watch` ile geliştirme modunda çalıştırır, dosya değişikliklerinde otomatik yeniden başlar. |
 | `npm run build` | TypeScript'i `dist/` klasörüne derler. |
 | `npm start` | `dist/index.js`'i çalıştırır (önce `npm run build` gerekir). |
-| `npm test` | `test/` altındaki otomatik testleri çalıştırır (`node:test`). Her test dosyası kendi geçici deposunu ve rastgele bir portu kullanır; gerçek `STORAGE_ROOT`'a dokunmaz. |
 
 ## API referansı
 
