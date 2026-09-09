@@ -1,0 +1,24 @@
+node_modules/
+.expo/
+dist/
+build/
+web-build/
+
+# Native klasörler Expo prebuild ile üretiliyor, depoda tutulmuyor
+android/
+ios/
+
+# Sunucu ve masaüstü eklendiğinde geçerli olacaklar
+dist-electron/
+release/
+
+# Çalışma zamanı verisi - cihaz kayıtları, token'lar, ayarlar
+devices.json
+tokens.json
+transfers.json
+.env
+.env.local
+
+*.log
+.DS_Store
+.idea/
