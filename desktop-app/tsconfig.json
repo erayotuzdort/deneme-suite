@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "strict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/services/api": ["src/services/api"],
+      "@/services/apiConfig": ["src/services/apiConfig"],
+      "@/services/credentials": ["src/services/credentials"],
+      "@/services/sharedStorage": ["src/services/sharedStorage"],
+      "expo-router": ["src/shims/expo-router"],
+      "expo-document-picker": ["src/shims/expo-document-picker"],
+      "@expo/vector-icons/Ionicons": ["src/shims/Ionicons"],
+      "@/*": ["../mobile-app/*"],
+      "@desktop/*": ["src/*"]
+    }
+  },
+  "include": ["src"]
+}
