@@ -4,6 +4,11 @@ Kişisel dosya aktarım sistemi: telefonunla ev bilgisayarın arasında, kapalı
 özel ağ (Tailscale) üzerinden dosya gönderip alırsın. Bulut yok, aracı sunucu
 yok — dosyalar yalnızca kendi cihazlarının arasında dolaşır.
 
+> **Kurmak mı istiyorsun?** Hiçbir şey kurulu olmayan bir bilgisayardan
+> başlayarak adım adım anlatan rehber: **[KURULUM.md](KURULUM.md)**
+> Hazır dosyalar için [Releases](../../releases/latest) sayfasına bak —
+> geliştirici aracı kurmana gerek yok.
+
 Sistem üç parçadan oluşuyor. Her parça kendi klasöründe, kendi `package.json`
 dosyasıyla duruyor ve ayrı ayrı kurulur.
 
